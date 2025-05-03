@@ -89,3 +89,43 @@ export const tableCols = [
     key: "con",
   },
 ];
+
+export const PerfectLocations = [
+  "Backyards",
+
+  "Rooftop decks",
+
+  "Office campuses",
+
+  "Resorts and hotels",
+
+  "Dedicated golf practice areas",
+];
+
+export const PuttingGreenInstallationSteps = [
+  {
+    id: 1,
+    img: "/evaluation.jpg",
+    text: "Free consultation and site evaluation",
+  },
+  {
+    id: 2,
+    img: "/site-map.jpg",
+    text: "3D design mockup tailored to your vision",
+  },
+  {
+    id: 3,
+    img: "/gorund-preping.jpg",
+    text: " Ground prep and leveling",
+  },
+  {
+    id: 4,
+    img: "/installation.jpg",
+    text: "Turf and features installation",
+  },
+  {
+    id: 5,
+    img: "/grooming.jpg",
+    text: "Grooming, testing, and final walkthrough",
+  },
+];

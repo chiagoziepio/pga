@@ -4,6 +4,8 @@ import OverViewSection from "./OverViewSection";
 import MaxWidthWrapper from "../MaxWidthWrapper";
 import GreenOptions from "./GreenOptions";
 import Benefits from "./Benefits";
+import Locations from "./Locations";
+import InstallationSteps from "./InstallationSteps";
 
 const Services = () => {
   return (
@@ -14,6 +16,8 @@ const Services = () => {
           <OverViewSection />
           <GreenOptions />
           <Benefits />
+          <Locations />
+          <InstallationSteps />
         </MaxWidthWrapper>
       </section>
     </main>
