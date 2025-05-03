@@ -1,4 +1,4 @@
-import { montserrat, openSans } from "@/lib/fonts";
+import { montserrat, openSans, playFair } from "@/lib/fonts";
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${openSans.variable} ${montserrat.variable} antialiased overflow-x-hidden  `}
+        className={`${openSans.variable} ${montserrat.variable} ${playFair.variable} antialiased overflow-x-hidden bg-[url('/pga-hero2.jpg')] bg-cover  bg-center bg-fixed bg-no-repeat`}
       >
         <Header />
         {children}

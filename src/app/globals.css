@@ -10,6 +10,9 @@
   .font-monsterrat {
     font-family: var(--font-montserrat);
   }
+  .font-playfair {
+    font-family: var(--font-playfair);
+  }
 }
 
 @theme inline {
@@ -17,6 +20,7 @@
   --color-foreground: var(--foreground);
   --color-bg2: var(--bg2);
   --font-sans: var(--font-open-sans);
+  --font-playfair: var(--font-playfair);
   --font-monsterrat: var(--font-montserrat);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
@@ -127,6 +131,6 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground font-monsterrat;
+    @apply bg-background text-foreground font-playfair;
   }
 }
