@@ -3,7 +3,7 @@ import ConsultationBtn from "../ConsultationBtn";
 
 const HeroSection = () => {
   return (
-    <section className="h-[calc(100vh-100px)] lg:max-w-xl mx-auto flex flex-col justify-center items-center gap-6 ">
+    <section className="h-[calc(100vh-100px)] lg:max-w-xl mx-auto flex flex-col justify-center items-center gap-6 px-2.3 lg:px-0 ">
       <h1 className="font-sans text-3xl md:text-4xl lg:text-[40px] text-center font-bold text-white">
         <span className="text-primary">P</span>utting{" "}
         <span className="text-primary">G</span>reens{" "}

@@ -5,7 +5,7 @@ import ConsultationBtn from "./ConsultationBtn";
 const Header = () => {
   return (
     <header className="  sticky top-[20px] z-50 h-20 font-playfair">
-      <nav className="flex justify-between items-center w-8/12 mx-auto backdrop-blur-md  h-18 bg-bg2/85 rounded-4xl px-2.5 ">
+      <nav className="flex justify-between items-center w-8/12 mx-auto backdrop-blur-md  h-18 bg-bg2/75 rounded-4xl px-2.5 ">
         <h1 className="font-sans font-bold bg-gradient-to-r from-green-5 00 via-green-300 to-green-950 bg-clip-text text-transparent text-2xl italic">
           <Link
             href={"/"}
@@ -14,7 +14,7 @@ const Header = () => {
             Putting Green Austin
           </Link>
         </h1>
-        <div className="flex gap-4 items-center">
+        <div className="lg:flex gap-4 items-center hidden">
           {NavItems.map((item) => (
             <Link
               key={item.name}
