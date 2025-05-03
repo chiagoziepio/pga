@@ -3,7 +3,7 @@ import React from "react";
 
 const OverViewSection = () => {
   return (
-    <div className="pt-14 flex flex-col lg:flex-row justify-between lg:items-center gap-y-8">
+    <div className="pt-14 flex flex-col lg:flex-row justify-between items-center gap-y-8">
       <div className="lg:w-1/2 w-full flex flex-col gap-5 lg:gap-10">
         <h2 className="text-3xl font-sans font-semibold">
           <span className="text-primary">B</span>ring the Golf Course to Your
