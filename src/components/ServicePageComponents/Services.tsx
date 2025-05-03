@@ -6,6 +6,8 @@ import GreenOptions from "./GreenOptions";
 import Benefits from "./Benefits";
 import Locations from "./Locations";
 import InstallationSteps from "./InstallationSteps";
+import Gallery from "./Gallery";
+import ConsultationForm from "./ConsultationForm";
 
 const Services = () => {
   return (
@@ -18,6 +20,8 @@ const Services = () => {
           <Benefits />
           <Locations />
           <InstallationSteps />
+          <Gallery />
+          <ConsultationForm />
         </MaxWidthWrapper>
       </section>
     </main>

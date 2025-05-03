@@ -129,3 +129,11 @@ export const PuttingGreenInstallationSteps = [
     text: "Grooming, testing, and final walkthrough",
   },
 ];
+
+export const Projects = [
+  "/project1.jpg",
+  "/project2.jpg",
+  "/project3.jpg",
+  "/project4.jpg",
+  "/project5.jpg",
+];
