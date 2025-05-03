@@ -2,6 +2,7 @@ import { montserrat, openSans, playFair } from "@/lib/fonts";
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
+import { AntdRegistry } from "@ant-design/nextjs-registry";
 
 export const metadata: Metadata = {
   title: "Putting Green Austin | services",
@@ -20,7 +21,7 @@ export default function RootLayout({
         className={`${openSans.variable} ${montserrat.variable} ${playFair.variable} antialiased overflow-x-hidden bg-[url('/pga-hero2.jpg')] bg-cover  bg-center bg-fixed bg-no-repeat`}
       >
         <Header />
-        {children}
+        <AntdRegistry>{children}</AntdRegistry>
       </body>
     </html>
   );

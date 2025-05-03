@@ -25,7 +25,7 @@ const GreenOptions = () => {
               src={item.img}
               alt={item.text}
               layout="fill"
-              objectFit="cover"
+              // objectFit="cover"
               className="w-full h-full"
             />
             <div className=" hidden absolute inset-0 bg-black/45  lg:flex items-center justify-center opacity-0 lg:group-hover:opacity-100 transition-opacity">

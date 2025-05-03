@@ -3,6 +3,10 @@
 
 @custom-variant dark (&:is(.dark *));
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer utilities {
   .font-sans {
     font-family: var(--font-open-sans);

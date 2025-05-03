@@ -3,6 +3,7 @@ import HeroSection from "./HeroSection";
 import OverViewSection from "./OverViewSection";
 import MaxWidthWrapper from "../MaxWidthWrapper";
 import GreenOptions from "./GreenOptions";
+import Benefits from "./Benefits";
 
 const Services = () => {
   return (
@@ -12,6 +13,7 @@ const Services = () => {
         <MaxWidthWrapper className="flex flex-col gap-14 lg:gap-20">
           <OverViewSection />
           <GreenOptions />
+          <Benefits />
         </MaxWidthWrapper>
       </section>
     </main>
