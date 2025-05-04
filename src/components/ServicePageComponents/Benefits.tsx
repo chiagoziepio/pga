@@ -1,20 +1,3 @@
-import { tableCols, tableDataSource } from "@/lib/Datas";
-import { Table } from "antd";
-import React from "react";
-
-const Benefits = () => {
-  return (
-    <div className="flex flex-col gap-8">
-      <h2 className="text-3xl font-sans text-center font-semibold">
-        Why Choose a Synthetic Putting Green?
-      </h2>
-      <Table
-        dataSource={tableDataSource}
-        columns={tableCols}
-        pagination={false}
-      />
-    </div>
-  );
-};
-
-export default Benefits;
+version https://git-lfs.github.com/spec/v1
+oid sha256:5f1c3a624fbba33fd9785d638c02fd486a973b34176e937541dfa5def2e7aba7
+size 499

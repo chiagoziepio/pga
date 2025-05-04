@@ -1,22 +1,3 @@
-import { cn } from "@/lib/utils";
-
-const MaxWidthWrapper = ({
-  children,
-  className,
-}: {
-  children: React.ReactNode;
-  className?: string;
-}) => {
-  return (
-    <div
-      className={cn(
-        "w-full max-w-screen-xl mx-auto px-2.5 md:px-20",
-        className
-      )}
-    >
-      {children}
-    </div>
-  );
-};
-
-export default MaxWidthWrapper;
+version https://git-lfs.github.com/spec/v1
+oid sha256:5528d3d2dac770544798d0f640a8dad7a3160db309f6f72c89ab273dfdc395ce
+size 374

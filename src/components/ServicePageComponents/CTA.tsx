@@ -1,18 +1,3 @@
-import React from "react";
-import ConsultationBtn from "../ConsultationBtn";
-
-const CTA = () => {
-  return (
-    <div className="flex flex-col gap-4 justify-center mb-20">
-      <h2 className="text-center text-3xl font-semibold">
-        {" "}
-        Ready to Create Your Dream Putting Green?
-      </h2>
-      <div className="flex flex-col gap-4 justify-center items-center">
-        <ConsultationBtn text="Start with a Free Quote Today" />
-      </div>
-    </div>
-  );
-};
-
-export default CTA;
+version https://git-lfs.github.com/spec/v1
+oid sha256:eb37ec6e442d7b9c12ec438ec6edf9db66a68491ce3c6a3f329820125bbe5a55
+size 514

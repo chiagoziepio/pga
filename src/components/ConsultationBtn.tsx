@@ -1,16 +1,3 @@
-import React from "react";
-import { buttonVariants } from "./ui/button";
-
-interface ConsultationBtnProps {
-  text?: string;
-}
-
-const ConsultationBtn = ({ text }: ConsultationBtnProps) => {
-  return (
-    <a href="#consultation" className={buttonVariants({ variant: "default" })}>
-      {text || "Get a Free Consultation"}
-    </a>
-  );
-};
-
-export default ConsultationBtn;
+version https://git-lfs.github.com/spec/v1
+oid sha256:ed9785012328dcdbb9552072fd036ab40ce1510a2c26571cad5276f6ae3b10de
+size 388
