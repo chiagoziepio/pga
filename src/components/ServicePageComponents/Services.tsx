@@ -9,6 +9,7 @@ import InstallationSteps from "./InstallationSteps";
 import Gallery from "./Gallery";
 import ConsultationForm from "./ConsultationForm";
 import Testimonials from "./Testimonials";
+import Faq from "./Faq";
 
 const Services = () => {
   return (
@@ -24,6 +25,7 @@ const Services = () => {
           <Gallery />
           <ConsultationForm />
           <Testimonials />
+          <Faq />
         </MaxWidthWrapper>
       </section>
     </main>

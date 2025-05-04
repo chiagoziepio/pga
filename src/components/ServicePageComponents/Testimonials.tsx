@@ -32,7 +32,7 @@ const Testimonials = () => {
                 height={50}
                 className="rounded-full"
               /> */}
-              <p className="font-semibold">{item.name}</p>
+              <p className="font-semibold text-center">{item.name}</p>
             </div>
           </div>
         ))}

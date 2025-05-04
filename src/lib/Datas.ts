@@ -164,3 +164,21 @@ export const ClientTestimonies = [
     clientImg: "/clientimg2.jpg",
   },
 ];
+
+export const FAQData = [
+  {
+    id: 1,
+    qus: "How much space do I need?",
+    ans: "We can design putting greens for spaces as small as 200 sq ft or build large-scale custom layouts.",
+  },
+  {
+    id: 2,
+    qus: "Can you design for serious golf practice?",
+    ans: "Absolutely. Our greens use true-roll turf and can include multiple holes, slopes, and chipping zones.",
+  },
+  {
+    id: 3,
+    qus: "How do I maintain it?",
+    ans: "Occasional brushing and rinsing is all it takes. No mowing or watering needed!",
+  },
+];
