@@ -19,7 +19,7 @@ export const GreenOpt = [
   {
     id: 3,
     img: "/greenopt3.jpg",
-    text: "Realistic slopes and undulations",
+    text: "Realistic slopes and undulations.",
   },
   {
     id: 4,
