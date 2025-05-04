@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${openSans.variable} ${montserrat.variable} ${playFair.variable} antialiased overflow-x-hidden bg-[url('/pga-hero2.jpg')] bg-cover  bg-center bg-fixed bg-no-repeat`}
+        className={`${openSans.variable} ${montserrat.variable} ${playFair.variable} antialiased overflow-x-hidden bg-[url('/pga-hero2.jpg')] bg-cover  bg-center bg-fixed bg-no-repeat `}
       >
         <Header />
         <AntdRegistry>
