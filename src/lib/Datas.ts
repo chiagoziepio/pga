@@ -137,3 +137,30 @@ export const Projects = [
   "/project4.jpg",
   "/project5.jpg",
 ];
+
+export const ClientTestimonies = [
+  {
+    id: 1,
+    img: "/client1.jpg",
+    name: "Jake R., South Austin",
+    testimony:
+      "I used to drive across town to practice my short game, now I just step into my backyard. This is hands-down the best investment for my game and home!",
+    clientImg: "/clientimg1.jpg",
+  },
+  {
+    id: 2,
+    img: "/client2.jpg",
+    name: "Marsha E., Hotel Manager, Downtown Austin",
+    testimony:
+      "Our rooftop putting green is a hit with guests and coworkers alike. The install team was fast, friendly, and totally professional.",
+    clientImg: "/clientimg3.jpg",
+  },
+  {
+    id: 3,
+    img: "/client3.jpg",
+    name: "Darius K., Bee Cave",
+    testimony:
+      "I wanted something fun, functional, and beautiful. Greenscapes nailed it!",
+    clientImg: "/clientimg2.jpg",
+  },
+];

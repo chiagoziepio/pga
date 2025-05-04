@@ -8,6 +8,7 @@ import Locations from "./Locations";
 import InstallationSteps from "./InstallationSteps";
 import Gallery from "./Gallery";
 import ConsultationForm from "./ConsultationForm";
+import Testimonials from "./Testimonials";
 
 const Services = () => {
   return (
@@ -22,6 +23,7 @@ const Services = () => {
           <InstallationSteps />
           <Gallery />
           <ConsultationForm />
+          <Testimonials />
         </MaxWidthWrapper>
       </section>
     </main>
