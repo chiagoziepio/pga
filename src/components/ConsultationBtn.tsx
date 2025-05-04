@@ -1,10 +1,14 @@
 import React from "react";
 import { buttonVariants } from "./ui/button";
 
-const ConsultationBtn = () => {
+interface ConsultationBtnProps {
+  text?: string;
+}
+
+const ConsultationBtn = ({ text }: ConsultationBtnProps) => {
   return (
     <a href="#consultation" className={buttonVariants({ variant: "default" })}>
-      Get Free Consultation
+      {text || "Get a Free Consultation"}
     </a>
   );
 };

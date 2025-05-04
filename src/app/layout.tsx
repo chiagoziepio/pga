@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import { AntdRegistry } from "@ant-design/nextjs-registry";
 import { Toaster } from "@/components/ui/sonner";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Putting Green Austin | services",
@@ -26,6 +27,7 @@ export default function RootLayout({
           {children}
           <Toaster />
         </AntdRegistry>
+        <Footer />
       </body>
     </html>
   );

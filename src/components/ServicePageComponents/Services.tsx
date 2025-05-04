@@ -10,6 +10,7 @@ import Gallery from "./Gallery";
 import ConsultationForm from "./ConsultationForm";
 import Testimonials from "./Testimonials";
 import Faq from "./Faq";
+import CTA from "./CTA";
 
 const Services = () => {
   return (
@@ -26,6 +27,7 @@ const Services = () => {
           <ConsultationForm />
           <Testimonials />
           <Faq />
+          <CTA />
         </MaxWidthWrapper>
       </section>
     </main>

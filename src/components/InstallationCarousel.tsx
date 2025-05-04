@@ -36,7 +36,7 @@ const InstallationCarousel = () => {
           {PuttingGreenInstallationSteps.map((item) => (
             <CarouselItem key={item.id}>
               <div
-                className="w-full h-[300px] flex justify-center items-center "
+                className="w-[80%] mx-auto md:w-full h-[300px] flex justify-center items-center "
                 style={{
                   backgroundImage: `url(${item.img})`,
                   backgroundSize: "cover",
@@ -50,8 +50,9 @@ const InstallationCarousel = () => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+        <CarouselPrevious className="hidden md:flex justify-center items-center" />
+
+        <CarouselNext className="hidden md:flex justify-center items-center" />
       </Carousel>
     </div>
   );
