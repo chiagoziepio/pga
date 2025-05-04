@@ -48,7 +48,7 @@ const Footer = () => {
                 <MdEmail /> info@greenscapesartificialturf.com
               </p>
             </a>
-            <a href="www.greenscapesartificialturf.com">
+            <a href="greenscapesartificialturf.com" target="_blank">
               <p className="hover:text-primary flex gap-1 items-center">
                 <CgWebsite /> Visit our website
               </p>
